@@ -1,7 +1,8 @@
 <?php
+//This file takes the input from the contact form and puts it in the database.
     session_start();
     $_SESSION['contactMessageSent'] = false;
-    //Pull the variables
+    //Pull the variables from POST
     $contactEmail = $_POST['email'];
     $contactText = $_POST['message'];
 

@@ -1,4 +1,5 @@
 <?php
+//This file echos out all messages from database that have been marked as read
     $db = new mysqli("localhost", "root", "", "message_schema");
     if ($db->connect_error){
         die ("Could not connect to db " . $db->connect_error);

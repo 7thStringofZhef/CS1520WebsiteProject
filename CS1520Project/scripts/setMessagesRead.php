@@ -1,4 +1,5 @@
 <?php
+	//Change all unread entries in the database to read
     $db = new mysqli("localhost", "root", "", "message_schema");
     if ($db->connect_error){
         die ("Could not connect to db " . $db->connect_error);

@@ -80,6 +80,7 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
                         </div>
                     </div>
                 </form>
+				<!--Display the login message (logged in, invalid combination, or missing a field-->
                 <h3 style="color:red">
                     <?php
                     if(isset($GLOBALS['loginMessage']))

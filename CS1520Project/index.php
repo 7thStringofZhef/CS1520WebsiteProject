@@ -18,7 +18,9 @@ session_start();
 
 <!--Header with links
     If not logged in, there is a login button. Otherwise it is logout.
-    If logged in, there is also an additional button to get to a page to read messages-->
+    If logged in, there is also an additional button to get to a page to read messages
+	
+	NOTE: Currently, logins work using the "admin.txt" file. Username is 7thStringofZhef, password is AFinePassword-->
 <div class="row">
     <div class="large-4 columns">
         <ul class="button-group">
@@ -86,6 +88,7 @@ session_start();
     </div>
 </div>
 
+<!--Footer with social links, contact form, resume-->
 <footer class="footer" id="footer">
     <div class="row">
         <div class="large-6 columns">
