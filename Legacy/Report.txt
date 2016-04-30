@@ -1,0 +1,36 @@
+Changes from part 1:
+	-Swapped out header links for a more complete sidebar.
+	-Used javascript to make that sidebar scroll with the user.
+	-Used javascript and css to make the buttons on the sidebar change color depending on where on the page the user goes.
+	-Created a fixed background at the top of the homepage with a semi-transparent text.
+	-Redid some of the styling
+	-Aligned footer, picture, and sections properly.
+	-Added a new section for specific language and framework skills
+	-Added a script that updates the github section with the 5 latest updates that I've made when the user clicks a button.
+
+Ideas for part 3:
+	I would still like to implement a call to the youtube API to update the latest video.
+	I would like to add a section for my publications and completed software projects.
+	I would like to add a special admin section to which I could upload files, then have my code update personal info from that.
+	I would make my message viewing section more selective and add delete functionality to it.
+	I would add a profile picture. Preferably with effects like this http://jimramsden.com/#
+	I would go more in-depth with font-icon styling, then add personal ratings (using stars) to each of my skills to tell how comfortable I am with each 
+	I WOULD ABSOLUTELY ADD MORE SECURITY TO THE SITE BEFORE I DEPLOYED THIS. Database and api access credentials would be hidden, SQL injection would be prevented.
+
+What did I learn between 1 and 2?
+	-I knew essentially no javascript or jQuery when I completed part 1, so that was a major change that factored into my design.
+	-I also did some research of personal websites on my own and learned about some new CSS and JS techniques that make websites look better, as well as a more effective layout.
+	-I learned AJAX requests and API calls, both of which I made use of. 
+	-I learned more about how foundation grid layout works and was able to leverage it better.
+	-I also learned a lot about web security (from last weeks of QA class), which has made me not want to deploy my website until I get a better handle on it. I didn't even think about it when I was doing my 	proposal, but it's too important to ignore. It didn't apply to this project part, however.
+
+Likes/Dislikes of project:
+	Likes:
+		-Style: I think for the most part, I really like the clean, modern look of the website. There are a few text style changes I might make, but overall, I'm happy with the look.
+		-Navigation: I really like the sticky navbar and its highlighting function
+		-Github link: The github API was surprisingly easy to understand, and tracking commits is an easy way to keep this up-to-date without manually changing it every time.
+		-Skills section: I hadn't thought to include this until I looked at some other personal websites, but now it seems pretty obvious.
+	Dislikes:
+		-Foundation icons: It's not that they don't look good, but I just don't understand how to make them look the way I want. I can't seem to change their size or all the color effects with CSS.
+		-Barebones admin section: I put this on the backburner because I care more about user-facing content, but the admin section doesn't have much functionality, and what it does have it a pain to use.
+		-Security: I have a text file with my admin password in a publicly accessible folder (if they guess the name). I don't handle SQL injections.
